@@ -1,5 +1,5 @@
-A Powerline style prompt for your shell
-=======================================
+A Powerline style prompt for your shell (forked for private useing)
+===================================================================
 
 A [Powerline](https://github.com/Lokaltog/vim-powerline) like prompt for Bash, ZSH and Fish:
 
