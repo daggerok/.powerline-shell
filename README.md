@@ -8,7 +8,7 @@ howto:
 ```sh
 BASHFILE="$HOME/.bashrc" # or for osx users: BASHFILE="~/.bash_pofile"
 git clone git@github.com:daggerok/.powerline-shell.git ~/.powerline-shell
-cd ~/.powerline-shell/
+cd $_
 cat bash >> $BASHFILE
 ln -s $PWD/powerline-shell.py ~/powerline-shell.py
 ./install.py
