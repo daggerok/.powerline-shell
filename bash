@@ -7,6 +7,6 @@ function _update_ps1() {
          --mode=compatible \
          $? 2> /dev/null)"
 }
-if [ "$TERM" != "linux" ]; then
+if [ "$TERM" != "linux" ] || [ "$TERM" != "xterm-256color" ]; then
   PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
