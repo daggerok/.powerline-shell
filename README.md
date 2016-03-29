@@ -9,9 +9,9 @@ howto:
 BASHFILE="$HOME/.bashrc" # or for osx users: BASHFILE="$HOME/.bash_profile"
 git clone git@github.com:daggerok/.powerline-shell.git ~/.powerline-shell
 cd $_
+./install.py
 cat bash >> $BASHFILE
 ln -s $PWD/powerline-shell.py ~/powerline-shell.py
-./install.py
 source $BASHFILE
 ```
 
