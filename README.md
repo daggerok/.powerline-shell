@@ -17,7 +17,9 @@ source $BASHFILE
 
 enjoy :)
 
-*ps: windows users can try git-bash, but i'm not sure...*
+*ps 1: you might also need to disable any git-prompts you are using*
+
+*ps 2: windows users can try git-bash, but i'm not sure... only one thing is update bash for checking if it actual $TERM (see bash)*
 
 **ORIGINAL README.md**
 
