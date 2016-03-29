@@ -6,7 +6,7 @@ A Powerline style prompt fork for personal use
 howto:
 
 ```sh
-BASHFILE="$HOME/.bashrc" # or for osx users: BASHFILE="~/.bash_pofile"
+BASHFILE="$HOME/.bashrc" # or for osx users: BASHFILE="$HOME/.bash_pofile"
 git clone git@github.com:daggerok/.powerline-shell.git ~/.powerline-shell
 cd $_
 cat bash >> $BASHFILE
