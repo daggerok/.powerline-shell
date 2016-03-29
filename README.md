@@ -17,7 +17,7 @@ source $BASHFILE
 
 enjoy :)
 
-ps: windows users can try git-bash, but i'm not sure...
+*ps: windows users can try git-bash, but i'm not sure...*
 
 **ORIGINAL README.md**
 
