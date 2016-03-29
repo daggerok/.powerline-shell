@@ -1,6 +1,20 @@
 A Powerline style prompt fork for personal use
 ==============================================
 
+howto:
+
+```sh
+BASHFILE="$HOME/.bashrc" # or for osx users: BASHFILE="~/.bash_pofile" # windows users can try git-bash, but i'm not sure...
+git clone git@github.com:daggerok/.powerline-shell.git ~/.powerline-shell
+cd ~/.powerline-shell/
+cat bash >> $BASHFILE
+ln -s $PWD/powerline-shell.py ~/powerline-shell.py
+./install.py
+source $BASHFILE
+```
+
+enjoy :)
+
 **ORIGINAL README.md**
 
 A [Powerline](https://github.com/Lokaltog/vim-powerline) like prompt for Bash, ZSH and Fish:
