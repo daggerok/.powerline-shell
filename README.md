@@ -3,6 +3,13 @@
 
 A Powerline style prompt fork for personal use
 
+```bash
+git clone https://github.com/banga/powerline-shell
+...
+```
+
+## deprecated:
+
 howto:
 
 ```sh
